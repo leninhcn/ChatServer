@@ -1,0 +1,19 @@
+{
+  "name": "chat_server",
+  "version": "1.0.0",
+  "description": "chat server use Nodejs+Express+Socket",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Hau",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.22",
+    "oracledb": "^5.5.0",
+    "socket.io": "^4.6.1"
+  }
+}
